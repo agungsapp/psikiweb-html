@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>redirect</title>
+</head>
+<body>
+  <script>
+  // Fungsi untuk melakukan redirect
+  function redirect(url) {
+    window.location.href = url;
+  }
+
+  // URL tujuan pengalihan
+  var targetURL = "/user/home.html";
+
+  // Waktu tunggu sebelum melakukan redirect (dalam milidetik)
+  var delay = 3000; // Contoh: pengalihan akan terjadi setelah 3 detik (3000 ms)
+
+  // Fungsi untuk melakukan pengalihan setelah waktu tunggu tertentu
+  function autoRedirect() {
+    setTimeout(function() {
+      redirect(targetURL);
+    }, delay);
+  }
+
+  // Memanggil fungsi autoRedirect saat halaman selesai dimuat
+  window.addEventListener("load", autoRedirect);
+</script>
+
+</body>
+</html>
