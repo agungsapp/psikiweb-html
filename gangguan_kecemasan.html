@@ -13,7 +13,7 @@
 
   <!-- font awesome  -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="/dist/output.css" />
+  <link rel="stylesheet" href="output.css" />
 </head>
 
 <body class="relative">
@@ -32,7 +32,7 @@
           id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown"
           data-dropdown-placement="bottom">
           <span class="sr-only">Open user menu</span>
-          <img class="w-8 h-8 rounded-full" src="/assets/img/profile1.png" alt="user photo" />
+          <img class="w-8 h-8 rounded-full" src="profile1.png" alt="user photo" />
         </button>
         <!-- Dropdown menu -->
         <div
@@ -78,17 +78,17 @@
         <ul
           class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-primary rounded-lg bg-primary md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-primary dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
-            <a href="home.html" class="transition-all duration-500  base-nav" aria-current="page">Home</a>
+            <a href="../home.html" class="transition-all duration-500 base-nav" aria-current="page">Home</a>
           </li>
           <!-- modif -->
           <li>
-            <a href="psikotes.html" class="transition-all duration-500 active-nav">Psikotes</a>
+            <a href="../psikotes.html" class="transition-all duration-500 base-nav">Psikotes</a>
           </li>
           <li>
-            <a href="jenis.html" class="transition-all duration-500 base-nav">Jenis Gangguan Mental</a>
+            <a href="../jenis.html" class="transition-all duration-500  active-nav">Jenis Gangguan Mental</a>
           </li>
           <li>
-            <a href="konsultasi.html" class="transition-all duration-500 base-nav">Konsultasi</a>
+            <a href="../konsultasi.html" class="transition-all duration-500 base-nav">Konsultasi</a>
           </li>
       </div>
     </div>
@@ -98,88 +98,83 @@
 
   <!-- main content -->
   <main>
-    <section class="container flex justify-center px-0 sm:px-12 md:px-20 lg:px-32 md:py-8 w-full">
-      <div class="py-3 px-6 md:px-16  w-full lg:w-3/4">
-        <!-- card question start -->
-        <div class="md:p-3 bg-white border-[3px] border-gray-900 rounded-xl">
-          <p class="text-sm md:text-md text-center font-dm">Saya merasa bahwa diri saya menjadi marah karena hal- hal
-            sepele.
+    <section class="container flex justify-center px-0 sm:px-12 md:px-32 md:py-8 w-full">
+      <div class="p-10  w-full lg:w-3/4">
+        <div>
+          <p class="mb-3 font-semibold text-2xl font-dm text-green-900 text-center">
+            Gangguan Kecemasan
           </p>
-          <!-- radio button answer -->
-          <div class="flex justify-center items-baseline mt-5">
-            <div class="flex items-center mb-4">
-              <input id="default-radio-1" type="radio" value="" name="default-radio"
-                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-              <label for="default-radio-1"
-                class="ml-2 text-sm md:text-md font-medium text-gray-900 dark:text-gray-300">Default
-                radio</label>
-            </div>
-            <div class="ms-5 flex items-center">
-              <input id="default-radio-2" type="radio" value="" name="default-radio"
-                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-              <label for="default-radio-2"
-                class="ml-2 text-sm md:text-md font-medium text-gray-900 dark:text-gray-300">Checked
-                state</label>
+        </div>
+        <!-- card chat box right start -->
+        <div class="mt-8 flex items-center justify-end">
+          <!-- chat box -->
+          <div>
+            <div class="px-5 py-3 me-5 border-[3px] border-basic bg-pupus rounded-xl">
+              <p class="text-green-900 font-dm font-semibold  tracking-tight leading-5">dok gangguan kecemasan itu
+                apasih ??</p>
             </div>
           </div>
-        </div>
-        <!-- card question start -->
-        <div class="md:p-3 mt-3 bg-white border-[3px] border-gray-900 rounded-xl">
-          <p class="text-sm md:text-md text-center font-dm">Saya merasa bahwa diri saya menjadi marah karena hal- hal
-            sepele.
-          </p>
-          <!-- radio button answer -->
-          <div class="flex justify-center items-baseline mt-5">
-            <div class="flex items-center mb-4">
-              <input id="default-radio-1" type="radio" value="" name="default-radio"
-                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-              <label for="default-radio-1"
-                class="ml-2 text-sm md:text-md font-medium text-gray-900 dark:text-gray-300">Default
-                radio</label>
-            </div>
-            <div class="ms-5 flex items-center">
-              <input id="default-radio-2" type="radio" value="" name="default-radio"
-                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-              <label for="default-radio-2"
-                class="ml-2 text-sm md:text-md font-medium text-gray-900 dark:text-gray-300">Checked
-                state</label>
-            </div>
+          <!-- gambar -->
+          <div class="rounded-full overflow-hidden">
+            <img class="w-[100px]" src="dokter-cwo.jpg" alt="dokter" srcset="">
           </div>
         </div>
-        <!-- card question start -->
-        <div class="md:p-3 mt-3 bg-white border-[3px] border-gray-900 rounded-xl">
-          <p class="text-sm md:text-md text-center font-dm">Saya merasa bahwa diri saya menjadi marah karena hal- hal
-            sepele.
-          </p>
-          <!-- radio button answer -->
-          <div class="flex justify-center items-baseline mt-5">
-            <div class="flex items-center mb-4">
-              <input id="default-radio-1" type="radio" value="" name="default-radio"
-                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-              <label for="default-radio-1"
-                class="ml-2 text-sm md:text-md font-medium text-gray-900 dark:text-gray-300">Default
-                radio</label>
-            </div>
-            <div class="ms-5 flex items-center">
-              <input id="default-radio-2" type="radio" value="" name="default-radio"
-                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-              <label for="default-radio-2"
-                class="ml-2 text-sm md:text-md font-medium text-gray-900 dark:text-gray-300">Checked
-                state</label>
+        <!-- card chat box right end -->
+        <!-- card chat box left start -->
+        <div class="mt-4 flex items-center justify-start">
+          <!-- chat box -->
+          <div class="order-last">
+            <div class="px-5 py-3 ms-5 border-[3px] border-basic bg-pupus rounded-xl">
+              <p class="text-green-900 font-dm font-semibold tracking-tight leading-5">rasa cemas yang berlebihan dan
+                ketakutan
+                atau rasa
+                khawatir yang terus – menerus</p>
             </div>
           </div>
+          <!-- gambar -->
+          <div class=" rounded-full overflow-hidden">
+            <img class="w-[200px] lg:w-[100px]" src="dokter-cwe.jpg" alt="dokter" srcset="">
+          </div>
         </div>
-
-        <!-- button submit -->
-        <div class="mt-12 flex justify-center">
-          <buttons
-            class="w-2/4 px-10 py-2 rounded-xl text-center font-semibold text-2xl font-dm bg-white border-[3px] border-gray-900">
-            Berikutnya
-          </buttons>
+        <!-- card chat box left end -->
+        <!-- card chat box right start -->
+        <div class="mt-4 flex items-center justify-end">
+          <!-- chat box -->
+          <div>
+            <div class="px-5 py-3 me-5 border-[3px] border-basic bg-pupus rounded-xl">
+              <p class="text-green-900 font-dm font-semibold  tracking-tight leading-5">
+                Ciri-cirinya gimana sih dok ?
+              </p>
+            </div>
+          </div>
+          <!-- gambar -->
+          <div class="rounded-full overflow-hidden">
+            <img class="w-[100px]" src="dokter-cwo.jpg" alt="dokter" srcset="">
+          </div>
         </div>
+        <!-- card chat box right end -->
+        <!-- card chat box left start -->
+        <div class="mt-4 flex items-center justify-start">
+          <!-- chat box -->
+          <div class="order-last">
+            <div class="px-5 py-3 ms-5 border-[3px] border-basic bg-pupus rounded-xl">
+              <p class="text-green-900 font-dm font-semibold tracking-tight leading-5">
+              <ul class="text-green-900 font-dm font-semibold tracking-tight leading-5">
+                <li>a. Sering merasa gelisah atau mudah marah</li>
+                <li>b. Mudah lelah, otot tegang</li>
+                <li>c. Sulit untuk berkonsentrasi, tidur terganggu (sukar, sering terbangun-bangun, tidur tak nyenyak)
+                </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+          <!-- gambar -->
+          <div class=" rounded-full overflow-hidden">
+            <img class="w-[200px] lg:w-[100px]" src="dokter-cwe.jpg" alt="dokter" srcset="">
+          </div>
+        </div>
+        <!-- card chat box left end -->
       </div>
-
-
     </section>
   </main>
 
